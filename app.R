@@ -43,7 +43,9 @@ server <- function(input, output) {
     # draw the histogram with the specified number of bins
     
 
+
     hist(x, breaks = bins, col = 'purple', border = 'white')
+
 
     
   })
